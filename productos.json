@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "tipo": "DESAYUNOS Y MERIENDAS",
+        "cantidad": 1,
+        "nombre": "ALMOHADITAS",
+        "medida": "250g",
+        "precio": 190,
+        "img": "./asset/desayunos_y_meriendas/almuhaditas__granix.jpg"
+    },
+    {
+        "id": 2,
+        "tipo": "DESAYUNOS Y MERIENDAS",
+        "cantidad": 1,
+        "nombre": "QUINOA POP",
+        "medida": "100g",
+        "precio": 90,
+        "img": "./asset/desayunos_y_meriendas/quinoa_pop.jpg"
+    },
+    {
+        "id": 3,
+        "tipo": "DESAYUNOS Y MERIENDAS",
+        "cantidad": 1,
+        "nombre": "PASTA DE MANI",
+        "medida": "500g",
+        "precio": 200,
+        "img": "./Asset/desayunos_y_meriendas/mantequilla_de_mani.jpg"
+    },
+    {
+        "id": 4,
+        "tipo": "LECHES VEGETALES",
+        "cantidad": 1,
+        "nombre": "LECHE DE ALMENDRAS",
+        "medida": "1L",
+        "precio": 1700,
+        "img": "./asset/leche_vegetales/leche_almendras_tratenfux1lt.jpg"
+    },
+    {
+        "id": 5,
+        "tipo": "LECHES VEGETALES",
+        "cantidad": 1,
+        "nombre": "LECHE DE COCO GRANDE",
+        "medida": "1L",
+        "precio": 320,
+        "img": "./Asset/leche_vegetales/leche_coco_greenfood.jpg"
+    },
+    {
+        "id": 6,
+        "tipo": "LECHES VEGETALES",
+        "cantidad": 1,
+        "nombre": "LECHE DE COCO",
+        "medida": "500ml",
+        "precio": 250,
+        "img": "./Asset/leche_vegetales/leche_coco_greenfood.jpg"
+    },
+    {
+        "id": 7,
+        "tipo": "LECHES VEGETALES",
+        "cantidad": 1,
+        "nombre": "LECHE DE ARROZ",
+        "medida": "1L",
+        "precio": 350,
+        "img": "./Asset/leche_vegetales/leche_arroz_x1lt_tratenfu.jpg"
+    },
+    {
+        "id": 8,
+        "tipo": "FRUTOS SECOS",
+        "cantidad": 1,
+        "nombre": "ALMENDRAS",
+        "medida": "1KG",
+        "precio": 190,
+        "img": "./asset/frutos_secos/Almendras_non_pareil.jpg"
+    },
+    {
+        "id": 9,
+        "tipo": "FRUTOS SECOS",
+        "cantidad": 1,
+        "nombre": "NUEZ",
+        "medida": "100g",
+        "precio": 200,
+        "img": "./asset/frutos_secos/Nuez_maripos.jpg"
+    },
+    {
+        "id": 10,
+        "tipo": "LEGUMBRES Y SEMILLAS",
+        "cantidad": 1,
+        "nombre": "LENTEJAS",
+        "medida": "160g",
+        "precio": 160,
+        "img": "./asset/legumbres_y_semillas/lenteja-x-500-grs.jpg"
+    },
+    {
+        "id": 11,
+        "tipo": "LEGUMBRES Y SEMILLAS",
+        "cantidad": 1,
+        "nombre": "GARBANZO",
+        "medida": "500g",
+        "precio": 160,
+        "img": "./asset/legumbres_y_semillas/garbanzo_organicos.jpg"
+    },
+    {
+        "id": 12,
+        "tipo": "LEGUMBRES Y SEMILLAS",
+        "cantidad": 1,
+        "nombre": "POROTO ADUKI",
+        "medida": "500g",
+        "precio": 160,
+        "img": "./asset/legumbres_y_semillas/porotos_aduki_organicos.jpg"
+    },
+    {
+        "id": 13,
+        "tipo": "LEGUMBRES Y SEMILLAS",
+        "cantidad": 1,
+        "nombre": "POROTO DE SOJA",
+        "medida": "500g",
+        "precio": 190,
+        "img": "./asset/legumbres_y_semillas/porotos_de_soja.jpg"
+    },
+    {
+        "id": 14,
+        "tipo": "LEGUMBRES Y SEMILLAS",
+        "cantidad": 1,
+        "nombre": "POROTO BLANCO",
+        "medida": "500g",
+        "precio": 270,
+        "img": "./asset/legumbres_y_semillas/porotos_blancos.jpg"
+    },
+    {
+        "id": 15,
+        "tipo": "ACEITES Y CONDIMENTOS",
+        "cantidad": 1,
+        "nombre": "ACEITE DE COCO",
+        "medida": "360ml",
+        "precio": 450,
+        "img": "./asset/aceites/aceite_de_coco.jpg"
+    },
+    {
+        "id": 16,
+        "tipo": "ACEITES Y CONDIMENTOS",
+        "cantidad": 1,
+        "nombre": "ACEITE DE OLIVA",
+        "medida": "500ml",
+        "precio": 850,
+        "img": "./asset/aceites/aceite_de_oliva.jpg"
+    },
+    {
+        "id": 17,
+        "tipo": "ACEITES Y CONDIMENTOS",
+        "cantidad": 1,
+        "nombre": "ACETO",
+        "medida": "250ml",
+        "precio": 350,
+        "img": "./asset/aceites/aceto-balsamico.jpg"
+    },
+    {
+        "id": 18,
+        "tipo": "MIX",
+        "cantidad": 1,
+        "nombre": "MIX PREMIUM",
+        "medida": "500g",
+        "precio": 750,
+        "img": "./asset/mix/mix__almendra_nuez_arandanos.jpg"
+    },
+    {
+        "id": 19,
+        "tipo": "MIX",
+        "cantidad": 1,
+        "nombre": "MIX NEMU",
+        "medida": "500g",
+        "precio": 859,
+        "img": "./asset/mix/mix_clasico.jpg"
+    },
+    {
+        "id": 20,
+        "tipo": "MIX",
+        "cantidad": 1,
+        "nombre": "MIX SALADO",
+        "medida": "500g",
+        "precio": 400,
+        "img": "./asset/mix/mix_salado.jpg"
+    },
+    {
+        "id": 21,
+        "tipo": "MIX",
+        "cantidad": 1,
+        "nombre": "MIX BASICO",
+        "medida": "500g",
+        "precio": 400,
+        "img": "./asset/mix/mix_clasico.jpg"
+    },
+    {
+        "id": 22,
+        "tipo": "MIX",
+        "cantidad": 1,
+        "nombre": "MIX TROPICAL",
+        "medida": "500g",
+        "precio": 450,
+        "img": "./asset/mix/mix_tropical.jpg"
+    }
+]

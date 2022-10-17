@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="alimentos,saludable,ditetica,productos">
+  <meta name="description" content="Tienda de alimentos saludables, mejor calidad de vida">
+  <title>NE.MU Productos</title>
+    <link rel="shortcut icon" href="../384_logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="stylesheet" href="./estilos/estilos.css">
+</head>
+
+</style>
+<body>
+   
+  <header class="encabezado  ">
+    <nav class="navbar navbar-expand-lg  color ">
+        <div class="container-fluid d-flex flex-direction flex-column">
+          <a class="navbar-brand" href="../index.html"><img class="logo" src="./384_logo.jpg" alt=""></a>
+          <button class="navbar-toggler color__boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse link " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+               
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pagina/iniciarsesion.html">Iniciar sesion</a>
+              </li>
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+</header>
+
+       
+
+  <main class="main__productos d-flex flex-column justify-content-center conteiner">
+
+        
+    <section class="  pagina__productos     ">
+      <h1 class="d-flex justify-content-center ">Productos</h1>
+     
+        <div class="contenedor__menu">
+          <div class=" dropdown  ">
+            <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+            </a>
+          <ul class="dropdown-menu menu__lista" aria-labelledby="Dropdown">
+          <li><a class="dropdown-item" href="#desayuno__y__merienda">Desayuno y merienda</a></li>
+          <li><a class="dropdown-item" href="#Frutos__secos">Frutos secos</a></li>
+          <li><a class="dropdown-item" href="#leches__vegetales">Leches vegetales</a></li>
+          <li><a class="dropdown-item" href="#semillas__y__legumbres">Semillas y legumbres</a></li>
+          <li><a class="dropdown-item" href="#Aceites__y__condimentos">Aceites y condimentos</a></li>
+          <li><a class="dropdown-item" href="#mixs">Mixs</a></li>
+          <li><a class="dropdown-item" href="#">Subir</a></li>
+          <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+        </ul>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary botonCarrito" data-bs-toggle="modal" data-bs-target="#exampleModal">
+         Carrito <span id="contadorCarrito"></span>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" id="contenedorCarrito">
+               
+              </div>
+              <p><span id="precioTotal">0</span></p>
+              <button id="vaciar-carrito" type="button" class="btn btn-danger">vaciar carrito</button>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                <div>
+                <button type="button" id="finalizaCompra" class="btn btn-primary ">Finalizar compra</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+
+          
+           
+        
+      
+        <div class="pagina__productos mt-4 " id="desayuno__y__merienda" >
+        
+          <h2 class="proctos__seccio">Desayuno y merienda</h2>
+          <div class="contenedor__tarjetas"  id="desayu_merienda">
+            <template>
+              <div class="card" style="width: 18rem; height:23rem;">
+                  <img src="../asset/desayunos_y_meriendas/almuhaditas__granix.jpg" class="card-img-top" alt=>
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"> </p>
+                  <p class="precios"> </p>
+                  <button>Cantidad</button>
+                  <a  class="btn btn-primary" id="boton">Comprar</a>
+                  
+              </div>
+             </template>
+         
+          </div>
+            
+          </div>
+        
+          <div class="pagina__productos" >
+            <h2 class="proctos__seccio"id="Frutos__secos">Frutos secos</h2>
+            <div class="contenedor__tarjetas" id="frutos__secos">
+             
+            </div>
+          </div>
+        
+              <div class="pagina__productos">
+                
+              
+              <h2 class="proctos__seccio"id="leches__vegetales">Leches Vegetales</h2>
+                <div class="contenedor__tarjetas" id="Leches__vegetales">
+                 
+                
+  
+              </div>
+              </div>
+            <div class="pagina__productos  " >
+              <h2 class="proctos__seccio"id="semillas__y__legumbres">Legumbres y semillas</h2>
+              <div class="contenedor__tarjetas" id="Semillas__y__legumbres">
+               
+             </div>
+            </div>
+            <div class="pagina__productos" >    
+              <h2 class="proctos__seccio"id="Aceites__y__condimentos">Aceites y condimentos</h2>
+              <div class="contenedor__tarjetas" id="aceites__y__condimentos">
+               
+              </div>
+              </div>
+
+            </div>
+            <div class="pagina__productos productos__mixs" >
+           
+              <h2 class="proctos__seccio"id="mixs">Mixs</h2>
+              <div class="contenedor__tarjetas" id="Mixs">
+              
+               
+              
+                
+                
+                  
+        
+                </div>
+                
+            </div>
+      </section>
+  
+     
+    
+
+
+  </main>
+
+  <footer>
+    <ul class="nav justify-content-center color footer__link">
+      
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./iniciarsesion.html">Iniciar sesion</a>
+          </li>
+        
+      </ul>
+      <div class="inconos">
+        <a href="https://www.instagram.com/ne.mu.tienda/?hl=es" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/pages/category/Grocery-Store/NEMU-102245434864761/"target="_blank" ><i class="bi bi-facebook"></i></a>
+        
+      </div>
+  </footer>
+
+
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+  crossorigin="anonymous"
+></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./jscrip.js"></script>
+  
+  </body>
+</html>
