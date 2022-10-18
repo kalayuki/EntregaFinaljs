@@ -400,11 +400,12 @@ async function fetchProductos(){
   // Finalizar compra
 
   finalizaCompra.addEventListener('click',()=>{
+
     Swal.fire({
       title: '<strong>Para finalizar compra debe </strong>',
       icon: 'info',
       html:
-                '<a href="./pagina/iniciarsesion.html">Iniciar sesion</a> ' 
+                '<p >Iniciar sesion</p> ' 
         ,
       showCloseButton: true,
       showCancelButton: true,
@@ -494,9 +495,33 @@ input.forEach((input)=>{
 
 })
 
-const enviar =document.getElementById("Aceptar")
+const enviar =document.getElementById("aceptar")
 const botonIni=document.getElementById("iniciarsesion")
- 
+
+enviar.addEventListener('click',()=>{
+  const nombre=document.getElementById("nombre").value
+  const domin=document.getElementById("domiclio").value
+  const localidad=document.getElementById("localida").value
+  const telefono=document.getElementById("telefono").value
+  const provincia=document.getElementById("provincia").value
+  Swal.fire({
+    title: `SE REALIZARA EL ENVIO A: `,
+    html:`
+    <p >${nombre}</p> 
+    <p>Direccion: ${domin} - ${localidad} - Prov: ${provincia}</p> 
+    <p>Telefono de contacto:${telefono}
+    `
+          
+      ,
+    showCloseButton: true,
+    showCancelButton: true,
+    focusConfirm: false,
+    confirmButtonText:
+      '<i class="fa fa-thumbs-up"></i> Muchas gracias por su compra!',
+    confirmButtonAriaLabel: 'Cancelar',
+    
+  })
+})
 
 
 
